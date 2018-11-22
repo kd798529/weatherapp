@@ -7,4 +7,4 @@ const Title = () => (
   </div>
 );
 
-export default Title
+export default Title;

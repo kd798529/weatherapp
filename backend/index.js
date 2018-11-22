@@ -9,7 +9,7 @@ server.use(bodyParser.json());
 server.use(morgan('combined'));
 server.use(helmet());
 
-const apiKey = '&APPID=37ae7082326f852682b047bfc4381ace'
+
 
 server.get('/', (req, res) => {
     axios.get('https://api.openweathermap.org/data/2.5/weather?q=London&APPID=37ae7082326f852682b047bfc4381ace')
